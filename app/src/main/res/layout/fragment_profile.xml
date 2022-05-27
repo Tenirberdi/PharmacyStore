@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-   * Drug App
-   * https://github.com/quintuslabs/GroceryStore
-   * Created on 18-Feb-2019.
-   * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
-   -->
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -49,14 +44,14 @@
                     <com.quintus.labs.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Name :" />
+                        android:text="Имя :" />
 
                     <com.quintus.labs.drugstore.customfonts.TextViewRegular
                         android:id="@+id/name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:text="Santosh Kumar Dash" />
+                        android:text="Алишеров Атай" />
                 </LinearLayout>
 
                 <View
@@ -73,14 +68,14 @@
                     <com.quintus.labs.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Email :" />
+                        android:text="Почта :" />
 
                     <com.quintus.labs.drugstore.customfonts.TextViewRegular
                         android:id="@+id/email"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:text="santoshnet2016@gmail.com" />
+                        android:text="alish@gmail.com" />
                 </LinearLayout>
 
                 <View
@@ -97,14 +92,14 @@
                     <com.quintus.labs.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Mobile :" />
+                        android:text="Номер :" />
 
                     <com.quintus.labs.drugstore.customfonts.TextViewRegular
                         android:id="@+id/mobile"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:text="9778178337" />
+                        android:text="0999999999" />
                 </LinearLayout>
 
                 <View
@@ -121,14 +116,14 @@
                     <com.quintus.labs.drugstore.customfonts.TextViewBold
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Address :" />
+                        android:text="Адресс :" />
 
                     <com.quintus.labs.drugstore.customfonts.TextViewRegular
                         android:id="@+id/address"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
-                        android:text="Banglore" />
+                        android:text="Бишкек" />
                 </LinearLayout>
 
                 <View

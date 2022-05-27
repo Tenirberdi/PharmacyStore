@@ -30,12 +30,7 @@ import com.quintus.labs.drugstore.util.localstorage.LocalStorage;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Drug App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 public class CartActivity extends BaseActivity {
     LocalStorage localStorage;
     List<Cart> cartList = new ArrayList<>();
@@ -67,7 +62,7 @@ public class CartActivity extends BaseActivity {
         emptyCart = findViewById(R.id.empty_cart_img);
         checkoutLL = findViewById(R.id.checkout_LL);
         totalPrice = findViewById(R.id.total_price);
-        totalPrice.setText("Rs. " + getTotalPrice() + "");
+        totalPrice.setText("$ " + getTotalPrice() + "");
         setUpCartRecyclerview();
 
 
@@ -117,11 +112,11 @@ public class CartActivity extends BaseActivity {
         AlertDialog myQuittingDialogBox = new AlertDialog.Builder(this)
 
                 //set message, title, and icon
-                .setTitle("Delete")
-                .setMessage("Do you want to Delete")
+                .setTitle("Удалить")
+                .setMessage("Вы хотите удалить?")
                 .setIcon(R.drawable.ic_delete_black_24dp)
 
-                .setPositiveButton("Delete", new DialogInterface.OnClickListener() {
+                .setPositiveButton("Удалить", new DialogInterface.OnClickListener() {
 
                     public void onClick(DialogInterface dialog, int whichButton) {
                         localStorage.deleteCart();
@@ -165,7 +160,7 @@ public class CartActivity extends BaseActivity {
         tv.setGravity(Gravity.CENTER);
         tv.setTypeface(null, Typeface.BOLD);
         // Set text to display in TextView
-        tv.setText("Cart"); // ActionBar title text
+        tv.setText("Корзина"); // ActionBar title text
         tv.setTextSize(20);
 
         // Set the text color of TextView to red
@@ -206,7 +201,7 @@ public class CartActivity extends BaseActivity {
     @Override
     public void updateTotalPrice() {
 
-        totalPrice.setText("Rs. " + getTotalPrice() + "");
+        totalPrice.setText("$ " + getTotalPrice() + "");
         if (getTotalPrice() == 0.0) {
             mState = "HIDE_MENU";
             invalidateOptionsMenu();

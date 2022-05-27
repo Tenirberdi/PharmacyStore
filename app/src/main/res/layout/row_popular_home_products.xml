@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-   * Drug App
-   * https://github.com/quintuslabs/GroceryStore
-   * Created on 18-Feb-2019.
-   * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
-   -->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
@@ -57,7 +52,7 @@
                 android:gravity="center"
                 android:lines="2"
                 android:maxLines="2"
-                android:text="Food"
+                android:text="Еда"
                 android:textColor="@color/colorAccent"
                 android:textSize="14dp" />
 
@@ -71,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="5dp"
-                    android:text="1 Bunch"
+                    android:text="шт"
                     android:textSize="16dp" />
 
                 <com.quintus.labs.drugstore.customfonts.TextViewRegular
@@ -91,7 +86,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerInParent="true"
                     android:layout_marginLeft="5dp"
-                    android:text="Rs."
+                    android:text="$"
                     android:textSize="16dp" />
 
                 <com.quintus.labs.drugstore.customfonts.TextViewRegular
@@ -133,7 +128,7 @@
                     android:layout_marginTop="10dp"
                     android:background="@drawable/shop_button_bg"
                     android:padding="10dp"
-                    android:text="shop Now"
+                    android:text="Купить"
                     android:textColor="@color/gen_white" />
 
                 <LinearLayout

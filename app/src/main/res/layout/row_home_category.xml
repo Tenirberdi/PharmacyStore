@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!--
-   * Drug App
-   * https://github.com/quintuslabs/GroceryStore
-   * Created on 18-Feb-2019.
-   * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
-   -->
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -64,7 +59,7 @@
             android:layout_alignParentRight="true"
             android:layout_centerInParent="true"
             android:padding="7dp"
-            android:text="All Category"
+            android:text="Все категории"
             android:textSize="16dp"
             android:textColor="@color/white"/>
     </LinearLayout>

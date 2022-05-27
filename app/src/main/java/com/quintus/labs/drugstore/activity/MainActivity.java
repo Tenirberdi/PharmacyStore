@@ -41,7 +41,7 @@ import com.quintus.labs.drugstore.fragment.CategoryFragment;
 import com.quintus.labs.drugstore.fragment.HomeFragment;
 import com.quintus.labs.drugstore.fragment.MyOrderFragment;
 import com.quintus.labs.drugstore.fragment.NewProductFragment;
-import com.quintus.labs.drugstore.fragment.OffrersFragment;
+//import com.quintus.labs.drugstore.fragment.OffrersFragment;
 import com.quintus.labs.drugstore.fragment.PopularProductFragment;
 import com.quintus.labs.drugstore.fragment.ProfileFragment;
 import com.quintus.labs.drugstore.helper.Converter;
@@ -144,7 +144,7 @@ public class MainActivity extends BaseActivity
         if (searchItem != null) {
             searchView = (SearchView) searchItem.getActionView();
         }
-        searchView.setQueryHint("Search Here...");
+        searchView.setQueryHint("Поиск");
         EditText searchBox = searchView.findViewById(androidx.appcompat.R.id.search_src_text);
         searchBox.setTextColor(Color.BLACK);
         searchBox.setHintTextColor(Color.GRAY);
@@ -319,9 +319,9 @@ public class MainActivity extends BaseActivity
                 fragment = new NewProductFragment();
                 break;
 
-            case R.id.nav_offers:
-                fragment = new OffrersFragment();
-                break;
+//            case R.id.nav_offers:
+//                fragment = new OffrersFragment();
+//                break;
 
             case R.id.nav_my_order:
                 fragment = new MyOrderFragment();

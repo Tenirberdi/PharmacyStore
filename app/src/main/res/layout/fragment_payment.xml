@@ -42,7 +42,7 @@
                     <com.quintus.labs.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Adderss"
+                        android:text="Адресс"
                         android:textColor="@color/colorPrimaryDark"
                         android:textSize="14dp" />
                 </LinearLayout>
@@ -62,7 +62,7 @@
                     <com.quintus.labs.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Payment"
+                        android:text="Платеж"
                         android:textColor="@color/Tex"
 
                         android:textSize="14dp" />
@@ -83,7 +83,7 @@
                     <com.quintus.labs.drugstore.customfonts.TextViewRegular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Confirm"
+                        android:text="Подтвердить"
                         android:textColor="@color/subtext"
                         android:textSize="14dp" />
                 </LinearLayout>
@@ -108,14 +108,14 @@
                 android:layout_marginRight="10dp"
                 android:checked="false"
                 android:enabled="false"
-                android:text="CARD PAYMENT" />
+                android:text="ОПЛАТА КАРТОЙ" />
 
             <RadioButton
                 android:id="@+id/cash_on_delivery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="CAH ON DELIVERY" />
+                android:text="НАЛИЧНЫМИ" />
 
         </RadioGroup>
 
@@ -146,14 +146,14 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
-                            android:text="SAVED CARDS"
+                            android:text="Сохраненные карты"
                             android:textColor="@color/lightgrey"
                             android:textSize="@dimen/text" />
 
                         <com.quintus.labs.drugstore.customfonts.TextViewRegular
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Online Payment Not Available"
+                            android:text="Онлайн платежи не доступны"
                             android:textAlignment="center"
                             android:textColor="#474747"
                             android:textSize="25dp" />
@@ -173,7 +173,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_margin="16dp"
-                            android:text="NEW CARDS"
+                            android:text="Новая карта"
                             android:textColor="@color/lightgrey"
                             android:textSize="@dimen/text" />
 
@@ -196,7 +196,7 @@
                                 android:layout_weight="1"
                                 android:background="#00000000"
                                 android:focusable="true"
-                                android:hint="CARD NUMBER"
+                                android:hint="Номер карты"
                                 android:enabled="false"
                                 android:inputType="number"
                                 android:lines="1"
@@ -240,7 +240,7 @@
                                 android:layout_weight="1"
                                 android:background="#00000000"
                                 android:focusable="true"
-                                android:hint=" NAME ON CARD"
+                                android:hint="Имя на карте"
                                 android:enabled="false"
                                 android:lines="1"
                                 android:maxLength="25"
@@ -277,7 +277,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:paddingRight="6dp"
-                                    android:text="EXPIRES ON"
+                                    android:text="Номер"
                                     android:textColor="@color/lightgrey"
                                     android:textSize="@dimen/sub_text" />
 
@@ -362,7 +362,7 @@
                                 android:gravity="center"
                                 android:paddingLeft="6dp"
                                 android:paddingRight="6dp"
-                                android:text="CONFIRM AND PAY Rs."
+                                android:text="Подтвердить и оплатить"
                                 android:textColor="@color/white"
                                 android:textSize="@dimen/text" />
                         </LinearLayout>
