@@ -10,16 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.quintus.labs.drugstore.R;
-/**
- * Drug App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class BlankFragment extends Fragment {
 
 

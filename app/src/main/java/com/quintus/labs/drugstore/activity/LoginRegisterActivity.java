@@ -13,12 +13,7 @@ import com.quintus.labs.drugstore.R;
 import com.quintus.labs.drugstore.fragment.LoginFragment;
 import com.quintus.labs.drugstore.util.Utils;
 
-/**
- * Drug App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 public class LoginRegisterActivity extends AppCompatActivity {
     private static FragmentManager fragmentManager;
 

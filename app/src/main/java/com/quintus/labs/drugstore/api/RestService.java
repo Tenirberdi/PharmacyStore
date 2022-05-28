@@ -23,12 +23,7 @@ import retrofit2.http.Part;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
-/**
- * RetrofitExample
- * https://github.com/quintuslabs/RetrofitExample
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 
 public interface RestService {
 

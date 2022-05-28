@@ -32,18 +32,13 @@ public class LocalStorageProvider extends DocumentsProvider {
 
     public static final String AUTHORITY = "com.ianhanniballake.localstorage.documents";
 
-    /**
-     * Default root projection: everything but Root.COLUMN_MIME_TYPES
-     */
+
     private final static String[] DEFAULT_ROOT_PROJECTION = new String[]{
             Root.COLUMN_ROOT_ID,
             Root.COLUMN_FLAGS, Root.COLUMN_TITLE, Root.COLUMN_DOCUMENT_ID, Root.COLUMN_ICON,
             Root.COLUMN_AVAILABLE_BYTES
     };
-    /**
-     * Default document projection: everything but Documents.COLUMN_ICON and
-     * Documents.COLUMN_SUMMARY
-     */
+
     private final static String[] DEFAULT_DOCUMENT_PROJECTION = new String[]{
             Document.COLUMN_DOCUMENT_ID,
             Document.COLUMN_DISPLAY_NAME, Document.COLUMN_FLAGS, Document.COLUMN_MIME_TYPE,

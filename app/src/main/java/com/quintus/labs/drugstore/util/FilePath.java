@@ -1,8 +1,6 @@
 package com.quintus.labs.drugstore.util;
 
-/**
- * Created by Manish on 10/2/2016.
- */
+
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -40,13 +38,6 @@ public class FilePath {
     private static final int BUFFER_SIZE = 1024 * 5;
 
 
-    /**
-     * Method for return file path of Gallery image
-     *
-     * @param context
-     * @param uri
-     * @return path of the selected image file from gallery
-     */
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public static String getPath(final Context context, final Uri uri) {
 

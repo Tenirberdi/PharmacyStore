@@ -14,16 +14,7 @@ import com.google.gson.Gson;
 import com.quintus.labs.drugstore.R;
 import com.quintus.labs.drugstore.model.User;
 import com.quintus.labs.drugstore.util.localstorage.LocalStorage;
-/**
- * Drug App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
 
-/**
- * A simple {@link Fragment} subclass.
- */
 public class ProfileFragment extends Fragment {
 
     TextView name, email, mobile, address;

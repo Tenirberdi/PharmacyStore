@@ -21,18 +21,12 @@ import java.io.FileFilter;
 import java.text.DecimalFormat;
 import java.util.Comparator;
 
-/**
- * @author Peli
- * @author paulburke (ipaulpro)
- * @version 2013-12-11
- */
+
 public class FileUtils {
     private FileUtils() {
     } //private constructor to enforce Singleton pattern
 
-    /**
-     * TAG for log messages.
-     */
+
     static final String TAG = "FileUtils";
     private static final boolean DEBUG = false; // Set to true to enable logging
 
@@ -44,13 +38,7 @@ public class FileUtils {
 
     public static final String HIDDEN_PREFIX = ".";
 
-    /**
-     * Gets the extension of a file name, like ".png" or ".jpg".
-     *
-     * @param uri
-     * @return Extension including the dot("."); "" if there is no extension;
-     * null if uri was null.
-     */
+
     public static String getExtension(String uri) {
         if (uri == null) {
             return null;
@@ -65,9 +53,7 @@ public class FileUtils {
         }
     }
 
-    /**
-     * @return Whether the URI is a local one.
-     */
+
     public static boolean isLocal(String url) {
         if (url != null && !url.startsWith("http://") && !url.startsWith("https://")) {
             return true;
@@ -75,20 +61,10 @@ public class FileUtils {
         return false;
     }
 
-    /**
-     * @return True if Uri is a MediaStore Uri.
-     * @author paulburke
-     */
     public static boolean isMediaUri(Uri uri) {
         return "media".equalsIgnoreCase(uri.getAuthority());
     }
 
-    /**
-     * Convert File into Uri.
-     *
-     * @param file
-     * @return uri
-     */
     public static Uri getUri(File file) {
         if (file != null) {
             return Uri.fromFile(file);
@@ -96,12 +72,7 @@ public class FileUtils {
         return null;
     }
 
-    /**
-     * Returns the path only (without file name).
-     *
-     * @param file
-     * @return
-     */
+
     public static File getPathWithoutFilename(File file) {
         if (file != null) {
             if (file.isDirectory()) {
@@ -170,7 +141,7 @@ public class FileUtils {
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is {@link LocalStorageProvider}.
-     * @author paulburke
+
      */
     public static boolean isLocalStorageDocument(Uri uri) {
         return LocalStorageProvider.AUTHORITY.equals(uri.getAuthority());
@@ -179,7 +150,7 @@ public class FileUtils {
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is ExternalStorageProvider.
-     * @author paulburke
+
      */
     public static boolean isExternalStorageDocument(Uri uri) {
         return "com.android.externalstorage.documents".equals(uri.getAuthority());
@@ -188,7 +159,7 @@ public class FileUtils {
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is DownloadsProvider.
-     * @author paulburke
+
      */
     public static boolean isDownloadsDocument(Uri uri) {
         return "com.android.providers.downloads.documents".equals(uri.getAuthority());
@@ -197,7 +168,7 @@ public class FileUtils {
     /**
      * @param uri The Uri to check.
      * @return Whether the Uri authority is MediaProvider.
-     * @author paulburke
+
      */
     public static boolean isMediaDocument(Uri uri) {
         return "com.android.providers.media.documents".equals(uri.getAuthority());

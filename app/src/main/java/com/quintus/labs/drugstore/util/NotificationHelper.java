@@ -31,10 +31,7 @@ import java.util.Date;
 import static androidx.core.app.NotificationCompat.PRIORITY_MAX;
 
 
-/**
- * Created by Santosh Dash on 28/04/19.
- * www.quintuslabs.info
- */
+
 
 public class NotificationHelper {
 

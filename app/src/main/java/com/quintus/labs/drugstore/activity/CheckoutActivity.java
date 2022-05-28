@@ -17,12 +17,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.quintus.labs.drugstore.R;
 import com.quintus.labs.drugstore.fragment.AddressFragment;
 
-/**
- * Drug App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 public class CheckoutActivity extends BaseActivity {
 
     @Override

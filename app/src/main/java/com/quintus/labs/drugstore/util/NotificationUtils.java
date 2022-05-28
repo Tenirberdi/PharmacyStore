@@ -35,10 +35,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Created by Santosh Dash on 28/04/19.
- * www.quintuslabs.info
- */
+
 public class NotificationUtils {
 
     private static final String NOTIFICATION_CHANNEL_ID = "9000";
@@ -50,9 +47,6 @@ public class NotificationUtils {
         this.mContext = mContext;
     }
 
-    /**
-     * Method checks if the app is in background or not
-     */
     @RequiresApi(api = Build.VERSION_CODES.Q)
     public static boolean isAppIsInBackground(Context context) {
         boolean isInBackground = true;

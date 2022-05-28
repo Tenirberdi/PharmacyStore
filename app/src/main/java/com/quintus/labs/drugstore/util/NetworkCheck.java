@@ -1,8 +1,6 @@
 package com.quintus.labs.drugstore.util;
 
-/**
- * Created by Jaison
- */
+
 
 import android.content.Context;
 import android.net.ConnectivityManager;

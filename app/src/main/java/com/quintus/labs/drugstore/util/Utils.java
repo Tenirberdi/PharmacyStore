@@ -3,12 +3,7 @@ package com.quintus.labs.drugstore.util;
 
 import com.quintus.labs.drugstore.api.clients.RestClient;
 
-/**
- * Grocery App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 public class Utils {
 
     //Email Validation pattern

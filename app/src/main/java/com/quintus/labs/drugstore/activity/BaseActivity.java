@@ -22,12 +22,7 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Drug App
- * https://github.com/quintuslabs/GroceryStore
- * Created on 18-Feb-2019.
- * Created by : Santosh Kumar Dash:- http://santoshdash.epizy.com
- */
+
 
 public class BaseActivity extends AppCompatActivity implements AddorRemoveCallbacks {
     public static final String TAG = "BaseActivity===>";

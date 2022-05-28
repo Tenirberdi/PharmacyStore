@@ -10,10 +10,7 @@ import android.preference.PreferenceManager;
 
 import java.util.Locale;
 
-/**
- * Created by devdeeds.com on 18/4/17.
- * by Jayakrishnan P.M
- */
+
 
 public class LocaleHelper {
 
